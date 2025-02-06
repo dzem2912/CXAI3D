@@ -31,7 +31,10 @@ If you're running this project for the first time, follow the steps in the proje
   
 To use Open3D ML Models such as Point Transformer you have to build the Open3D library from scratch by following this link: https://www.open3d.org/docs/release/compilation.html
 
+The datasets are available for download on their official websites:
 
+- [DALES](https://udayton.edu/engineering/research/centers/vision_lab/research/was_data_analysis_and_processing/dale.php)
+- [ISPRS Vaihingen](https://www.isprs.org/education/benchmarks/UrbanSemLab/3d-semantic-labeling.aspx)
 ## Code structure
 
 ```
@@ -101,5 +104,9 @@ python3 scripts/result_visualization.py --dataset=dales --algorithm_name=nsga2 -
 
 # Acknowledgements
 
+
+
+
 # License Information
 
+This repository is licensed under the **Apache License 2.0** and datasets are licensed under the **Creative Commons Attribution-NonCommercial 3.0 (CC BY-NC 3.0)**.
