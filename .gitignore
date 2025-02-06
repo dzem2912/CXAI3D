@@ -1,0 +1,4 @@
+source/semantic_segmentation/models/logs
+source/perturbations/solutions
+perturbation_data
+training_data
