@@ -1,6 +1,13 @@
 # CXAI3D
 This repository is the official implementation of Enhancing Trust in Automated 3D Point Cloud Data Interpretation through Explainable Counterfactuals
 
+<div align="center">
+  <div>
+    <img src="example-image.png" alt="Example-visualization" width="450">
+  </div>
+  <p> Figure 1: Generated Counterfactuals from a Vehicle Instance</p>
+</div>
+
 
 # Citation
 
@@ -92,5 +99,7 @@ running the ``result_visualization.py`` generates the perturbated PCD, the respe
 python3 scripts/result_visualization.py --dataset=dales --algorithm_name=nsga2 --seed=1 --s=27644 --sp=73957
 ```
 
+# Acknowledgements
 
+# License Information
 
