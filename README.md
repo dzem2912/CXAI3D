@@ -3,9 +3,9 @@ This repository is the official implementation of Enhancing Trust in Automated 3
 
 <div align="center">
   <div>
-    <img src="example-image.png" alt="Example-visualization" width="450">
+    <img src="images/graphical-abstract.png" alt="Graphical-Abstract" width="500">
   </div>
-  <p> Figure 1: Generated Counterfactuals from a Vehicle Instance</p>
+  <p> Figure 1: Graphical Abstract - Generation of counterfactual explanations in 3D point cloud data, balancing similarity, sparsity, and validity through multi-objective optimization.</p>
 </div>
 
 
@@ -35,6 +35,7 @@ The datasets are available for download on their official websites:
 
 - [DALES](https://udayton.edu/engineering/research/centers/vision_lab/research/was_data_analysis_and_processing/dale.php)
 - [ISPRS Vaihingen](https://www.isprs.org/education/benchmarks/UrbanSemLab/3d-semantic-labeling.aspx)
+
 ## Code structure
 
 ```
@@ -101,6 +102,13 @@ Running the ``result_visualization.py`` script generates the perturbated PCD, th
 ```
 python3 scripts/result_visualization.py --dataset=dales --algorithm_name=nsga2 --seed=1 --s=27644 --sp=73957
 ```
+
+<div align="center">
+  <div>
+    <img src="images/example-image.png" alt="Example-visualization" width="500">
+  </div>
+  <p> Figure 2: Example of a counterfactual output for a vehicle class in each objective direction. </p>
+</div>
 
 # Acknowledgements
 
