@@ -104,7 +104,7 @@ python3 scripts/result_visualization.py --dataset=dales --algorithm_name=nsga2 -
 
 # Acknowledgements
 
-
+This code has been developed with support from the Austrian Science Fund (FWF), Project: P-32554 explainable Artificial Intelligence; and of the Government of Lower Austria, Project GFF NÖ FTI-22-I-004 "Infrastructure for the realistic testing of AI-supported robot systems in demanding environments (e.g. forest) without direct energy connection, for multiple use cases (e.g. monitoring/maintenance of forest roads) - human-robot teaming".
 
 
 # License Information
