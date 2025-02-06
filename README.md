@@ -92,12 +92,12 @@ This will generate the results in the ``solutions`` folder. Depending on the alg
 │   ├── vaihingen
 
 ```
-The .pkl files are then used in for the ``solution_unpacking.py``. Example:
+The .pkl files are then used in the ``solution_unpacking.py`` script. Example:
 
 ```
 python3 scripts/solution_unpacking.py --algorithm_name=nsga2 --dataset_name=dales --s_index=27644 --sp_index=73957
 ```
-running the ``result_visualization.py`` generates the perturbated PCD, the respective pareto-plots and metrics for each objective direction extreme. Example:
+Running the ``result_visualization.py`` script generates the perturbated PCD, the respective pareto-plots and metrics for each objective direction extreme. Example:
 ```
 python3 scripts/result_visualization.py --dataset=dales --algorithm_name=nsga2 --seed=1 --s=27644 --sp=73957
 ```
