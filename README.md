@@ -11,6 +11,21 @@ This repository is the official implementation of Enhancing Trust in Automated 3
 
 # Citation
 
+If you find our work useful in your research, please consider citing:
+```
+@article{HOLZINGER2025103032,
+title = {Enhancing trust in automated 3D point cloud data interpretation through explainable counterfactuals},
+journal = {Information Fusion},
+volume = {119},
+pages = {103032},
+year = {2025},
+issn = {1566-2535},
+doi = {https://doi.org/10.1016/j.inffus.2025.103032},
+url = {https://www.sciencedirect.com/science/article/pii/S1566253525001058},
+author = {Andreas Holzinger and Niko Lukač and Dzemail Rozajac and Emile Johnston and Veljka Kocic and Bernhard Hoerl and Christoph Gollob and Arne Nothdurft and Karl Stampfer and Stefan Schweng and Javier {Del Ser}},
+keywords = {Explainable AI, Point cloud data, Counterfactual reasoning, Information fusion, Interpretability, Human-centered AI}
+}
+```
 
 # Dependencies
 
